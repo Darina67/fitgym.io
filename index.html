@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+
+    <title>FITGYM</title>
+  </head>
+  <body>
+    <div class="inner__wrapper">
+      <header class="header fixed" id="header">
+        <div class="container">
+          <div class="header__wrapper" id="nav">
+            <div class="header__lpart">
+              <a href="#main">
+                <div class="logo">
+                  <img src="assets/img/logo.png" alt="Fitgym" />
+                  <div class="logo__name">
+                    <div class="name">
+                      <div class="name-fit">Fit</div>
+                      <div class="name-gym">Gym</div>
+                    </div>
+                    <div class="logo__name-unname">Premium</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="header__mpart">
+              <nav class="nav">
+                <ul class="list">
+                   <li class="list__item"> <a href="#coaches">Тренеры</a></li>
+                <li class="list__item">  <a href="#services">Услуги</a></li>
+                  <li class="list__item"><a href="#gallery">Галерея</a></li>
+                  <li class="list__item"><a href="#price">Прайс</a></li>
+                  <li class="list__item"> <a href="#contact">Контакты</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__rpart">
+              <button class="btn btn--header" type="button" data-modal="contact-modal">
+                Записаться
+              </button>
+            </div>
+          </div>
+        </div>
+
+         <button class="nav-toggle" type="button" id="nav-toggle">
+        <span class="nav-toggle__item">Menu</span> 
+
+      </header>
+
+      <section class="section main" id="main">
+        <div class="container">
+          <div class="main__wrapper">
+            <div class="main__text">
+              <div class="main__text-title">Придай своему</div>
+              <div class="main__text-subtitle">Телу форму</div>
+              <div class="main__description">
+                <p>
+                  Место притяжения для тех, кто нацелен на победы. Премиальная
+                  линейка тренажеров, тренеры международного уровня и бассейн.
+                </p>
+              </div>
+              <button class="btn" type="button" data-modal="contact-modal">
+                Начать →
+              </button>
+            </div>
+            <div class="people">
+              <img src="assets/img/people.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section__title">Услуги</div>
+        <div class="section__subtitle">
+          <div class="subtitle-fp">Создай своё</div>
+          <div class="subtitle-sp">Тело мечты</div>
+        </div>
+        <div class="card__list">
+          <div class="card">
+            <div class="card__image">
+              <img src="assets/img/services-icon/1.png" alt="Тренажерный зал" />
+            </div>
+            <div class="card__desc">
+              Тренажерный зал, оснащенный самым современным оборудованием
+            </div>
+            <button
+              class="btn btn--card"
+              type="button"
+              data-modal="contact-modal"
+            >
+              Подробнее →
+            </button>
+          </div>
+          <div class="card">
+            <div class="card__image">
+              <img
+                src="assets/img/services-icon/2.png"
+                alt=" Зал для групповых занятий"
+              />
+            </div>
+            <div class="card__desc">Два зала для групповых занятий</div>
+            <button
+              class="btn btn--card"
+              type="button"
+              data-modal="contact-modal"
+            >
+              Подробнее →
+            </button>
+          </div>
+          <div class="card card--thr">
+            <div class="card__image">
+              <img src="assets/img/services-icon/3.png" alt="бассейн" />
+            </div>
+            <div class="card__desc">
+              25-метровый бассейн с 4 дорожками и зоной для аква-аэробики,
+              развлекательный бассейн
+            </div>
+            <button
+              class="btn btn--card"
+              type="button"
+              data-modal="contact-modal"
+            >
+              Подробнее →
+            </button>
+          </div>
+          <div class="card">
+            <div class="card__image">
+              <img src="assets/img/services-icon/4.png" alt=" тренинг" />
+            </div>
+            <div class="card__desc">Групповой и персональный тренинг</div>
+            <button
+              class="btn btn--card"
+              type="button"
+              data-modal="contact-modal"
+            >
+              Подробнее →
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section adventages">
+      <div class="container">
+        <div class="section__subtitle section__subtitle--advantages">
+          <div class="subtitle-fp">Почему</div>
+          <div class="subtitle-sp">Мы?</div>
+        </div>
+        <div class="section__wrapper">
+          <div class="people people--advantages">
+            <img src="assets/img/people-2.webp" alt="" />
+          </div>
+          <div class="advantages__list">
+            <li class="advantages__list-item">
+              <div class="icon">
+                <img src="assets/img/check.png" alt="" />
+              </div>
+              <div class="li__title">Клиентский сервис premium-класса</div>
+            </li>
+            <li class="advantages__list-item">
+              <div class="icon">
+                <img src="assets/img/check.png" alt="" />
+              </div>
+              <div class="li__title">Квалифицированный персонал</div>
+            </li>
+            <li class="advantages__list-item">
+              <div class="icon">
+                <img src="assets/img/check.png" alt="" />
+              </div>
+              <div class="li__title">
+                Современное высокотехнологичное оборудование
+              </div>
+            </li>
+            <li class="advantages__list-item">
+              <div class="icon">
+                <img src="assets/img/check.png" alt="" />
+              </div>
+              <div class="li__title">
+                Расположение в экологически чистом месте - «Реадовский парк»
+              </div>
+            </li>
+            <li class="advantages__list-item">
+              <div class="icon">
+                <img src="assets/img/check.png" alt="" />
+              </div>
+              <div class="li__title">Транспортная доступность</div>
+            </li>
+            <li class="advantages__list-item">
+              <div class="icon">
+                <img src="assets/img/check.png" alt="" />
+              </div>
+              <div class="li__title">Большая парковка</div>
+            </li>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="section__title">Галерея</div>
+      <div class="gallery__wrapper">
+        <div class="grid__row">
+          <a data-fslightbox="gallery1" href="assets/img/gallery/1.webp">
+            <img
+              class="gallery-img"
+              src="assets/img/gallery/1.webp"
+              alt="photo"
+            />
+          </a>
+          <a data-fslightbox="gallery1" href="assets/img/gallery/2.webp">
+            <img
+              class="gallery-img"
+              src="assets/img/gallery/2.webp"
+              alt="photo"
+            />
+          </a>
+        </div>
+        <a data-fslightbox="gallery1" href="assets/img/gallery/3.webp">
+          <img
+            class="gallery-img3"
+            src="assets/img/gallery/3.webp"
+            alt="photo"
+          />
+        </a>
+        <div class="grid__row">
+          <a data-fslightbox="gallery1" href="assets/img/gallery/4.webp">
+            <img
+              class="gallery-img"
+              src="assets/img/gallery/4.webp"
+              alt="photo"
+            />
+          </a>
+          <a data-fslightbox="gallery1" href="assets/img/gallery/5.webp">
+            <img
+              class="gallery-img"
+              src="assets/img/gallery/5.webp"
+              alt="photo"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="bottom__row">
+        <a data-fslightbox="gallery1" href="assets/img/gallery/6.webp">
+          <img
+            class="gallery-img1"
+            src="assets/img/gallery/6.webp"
+            alt="photo"
+          />
+        </a>
+        <a data-fslightbox="gallery1" href="assets/img/gallery/7.webp">
+          <img
+            class="gallery-img7"
+            src="assets/img/gallery/7.webp"
+            alt="photo"
+          />
+        </a>
+        <a data-fslightbox="gallery1" href="assets/img/gallery/8.webp">
+          <img
+            class="gallery-img8"
+            src="assets/img/gallery/8.webp"
+            alt="photo"
+          />
+        </a>
+      </div>
+    </section>
+
+    <section class="section price" id="price">
+      <div class="container container--price">
+        <div class="section__title">Прайс</div>
+        <div class="section__subtitle">
+          <div class="subtitle-fp">Наши разнообразные</div>
+          <div class="subtitle-sp">Планы</div>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="price__card">
+                <div class="icon">
+                  <img src="assets/img/premium.png" alt="" />
+                </div>
+                <div class="price__title">Fitness Card</div>
+
+                <div class="price__cost">2800 руб. - месяц</div>
+                <div class="price__cost">12.000 руб. - 6 месяцев</div>
+                <div class="price__cost">20.000 руб. - 12 месяцев</div>
+
+                <div class="price__desc">
+                  <div class="price__desc-icon">
+                    <svg
+                      clip-rule="evenodd"
+                      fill-rule="evenodd"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m11.998 2.005c5.517 0 9.997 4.48 9.997 9.997 0 5.518-4.48 9.998-9.997 9.998-5.518 0-9.998-4.48-9.998-9.998 0-5.517 4.48-9.997 9.998-9.997zm0 1.5c-4.69 0-8.498 3.807-8.498 8.497s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.497-8.497-8.497zm-5.049 8.886 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                  <div class="price__desc-desc">
+                    Пн - пт: 7:00 - 23:00(Последний заход в 21:30)
+                  </div>
+                </div>
+                <div class="price__desc">
+                  <div class="price__desc-icon">
+                    <svg
+                      clip-rule="evenodd"
+                      fill-rule="evenodd"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m11.998 2.005c5.517 0 9.997 4.48 9.997 9.997 0 5.518-4.48 9.998-9.997 9.998-5.518 0-9.998-4.48-9.998-9.998 0-5.517 4.48-9.997 9.998-9.997zm0 1.5c-4.69 0-8.498 3.807-8.498 8.497s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.497-8.497-8.497zm-5.049 8.886 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                  <div class="price__desc-desc">
+                    Пн - пт: 7:00 - 23:00(Последний заход в 21:30)
+                  </div>
+                </div>
+                <div class="price__desc">
+                  <div class="price__desc-icon">
+                    <svg
+                      clip-rule="evenodd"
+                      fill-rule="evenodd"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m11.998 2.005c5.517 0 9.997 4.48 9.997 9.997 0 5.518-4.48 9.998-9.997 9.998-5.518 0-9.998-4.48-9.998-9.998 0-5.517 4.48-9.997 9.998-9.997zm0 1.5c-4.69 0-8.498 3.807-8.498 8.497s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.497-8.497-8.497zm-5.049 8.886 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                  <div class="price__desc-desc">
+                    Пн - пт: 7:00 - 23:00(Последний заход в 21:30)
+                  </div>
+                </div>
+                <button class="btn btn--price" type="button">
+                  Приобрести →
+                </button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="price__card">
+                <div class="icon">
+                  <img src="assets/img/premium.png" alt="" />
+                </div>
+                <div class="price__title">Fitness Card</div>
+
+                <div class="price__cost">2800 руб. - месяц</div>
+                <div class="price__cost">12.000 руб. - 6 месяцев</div>
+                <div class="price__cost">20.000 руб. - 12 месяцев</div>
+
+                <div class="price__desc">
+                  <div class="price__desc-icon">
+                    <svg
+                      clip-rule="evenodd"
+                      fill-rule="evenodd"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m11.998 2.005c5.517 0 9.997 4.48 9.997 9.997 0 5.518-4.48 9.998-9.997 9.998-5.518 0-9.998-4.48-9.998-9.998 0-5.517 4.48-9.997 9.998-9.997zm0 1.5c-4.69 0-8.498 3.807-8.498 8.497s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.497-8.497-8.497zm-5.049 8.886 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                  <div class="price__desc-desc">
+                    Пн - пт: 7:00 - 23:00(Последний заход в 21:30)
+                  </div>
+                </div>
+                <div class="price__desc">
+                  <div class="price__desc-icon">
+                    <svg
+                      clip-rule="evenodd"
+                      fill-rule="evenodd"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m11.998 2.005c5.517 0 9.997 4.48 9.997 9.997 0 5.518-4.48 9.998-9.997 9.998-5.518 0-9.998-4.48-9.998-9.998 0-5.517 4.48-9.997 9.998-9.997zm0 1.5c-4.69 0-8.498 3.807-8.498 8.497s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.497-8.497-8.497zm-5.049 8.886 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                  <div class="price__desc-desc">
+                    Пн - пт: 7:00 - 23:00(Последний заход в 21:30)
+                  </div>
+                </div>
+                <div class="price__desc">
+                  <div class="price__desc-icon">
+                    <svg
+                      clip-rule="evenodd"
+                      fill-rule="evenodd"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m11.998 2.005c5.517 0 9.997 4.48 9.997 9.997 0 5.518-4.48 9.998-9.997 9.998-5.518 0-9.998-4.48-9.998-9.998 0-5.517 4.48-9.997 9.998-9.997zm0 1.5c-4.69 0-8.498 3.807-8.498 8.497s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.497-8.497-8.497zm-5.049 8.886 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                  <div class="price__desc-desc">
+                    Пн - пт: 7:00 - 23:00(Последний заход в 21:30)
+                  </div>
+                </div>
+                <button class="btn btn--price" type="button">
+                  Приобрести →
+                </button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="price__card">
+                <div class="icon">
+                  <img src="assets/img/premium.png" alt="" />
+                </div>
+                <div class="price__title">Fitness Card</div>
+
+                <div class="price__cost">2800 руб. - месяц</div>
+                <div class="price__cost">12.000 руб. - 6 месяцев</div>
+                <div class="price__cost">20.000 руб. - 12 месяцев</div>
+
+                <div class="price__desc">
+                  <div class="price__desc-icon">
+                    <svg
+                      clip-rule="evenodd"
+                      fill-rule="evenodd"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m11.998 2.005c5.517 0 9.997 4.48 9.997 9.997 0 5.518-4.48 9.998-9.997 9.998-5.518 0-9.998-4.48-9.998-9.998 0-5.517 4.48-9.997 9.998-9.997zm0 1.5c-4.69 0-8.498 3.807-8.498 8.497s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.497-8.497-8.497zm-5.049 8.886 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                  <div class="price__desc-desc">
+                    Пн - пт: 7:00 - 23:00(Последний заход в 21:30)
+                  </div>
+                </div>
+                <div class="price__desc">
+                  <div class="price__desc-icon">
+                    <svg
+                      clip-rule="evenodd"
+                      fill-rule="evenodd"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m11.998 2.005c5.517 0 9.997 4.48 9.997 9.997 0 5.518-4.48 9.998-9.997 9.998-5.518 0-9.998-4.48-9.998-9.998 0-5.517 4.48-9.997 9.998-9.997zm0 1.5c-4.69 0-8.498 3.807-8.498 8.497s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.497-8.497-8.497zm-5.049 8.886 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                  <div class="price__desc-desc">
+                    Пн - пт: 7:00 - 23:00(Последний заход в 21:30)
+                  </div>
+                </div>
+                <div class="price__desc">
+                  <div class="price__desc-icon">
+                    <svg
+                      clip-rule="evenodd"
+                      fill-rule="evenodd"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m11.998 2.005c5.517 0 9.997 4.48 9.997 9.997 0 5.518-4.48 9.998-9.997 9.998-5.518 0-9.998-4.48-9.998-9.998 0-5.517 4.48-9.997 9.998-9.997zm0 1.5c-4.69 0-8.498 3.807-8.498 8.497s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.497-8.497-8.497zm-5.049 8.886 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                  <div class="price__desc-desc">
+                    Пн - пт: 7:00 - 23:00(Последний заход в 21:30)
+                  </div>
+                </div>
+                <button class="btn btn--price" type="button">
+                  Приобрести →
+                </button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="price__card">
+                <div class="icon">
+                  <img src="assets/img/premium.png" alt="" />
+                </div>
+                <div class="price__title">Fitness Card</div>
+
+                <div class="price__cost">2800 руб. - месяц</div>
+                <div class="price__cost">12.000 руб. - 6 месяцев</div>
+                <div class="price__cost">20.000 руб. - 12 месяцев</div>
+
+                <div class="price__desc">
+                  <div class="price__desc-icon">
+                    <svg
+                      clip-rule="evenodd"
+                      fill-rule="evenodd"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m11.998 2.005c5.517 0 9.997 4.48 9.997 9.997 0 5.518-4.48 9.998-9.997 9.998-5.518 0-9.998-4.48-9.998-9.998 0-5.517 4.48-9.997 9.998-9.997zm0 1.5c-4.69 0-8.498 3.807-8.498 8.497s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.497-8.497-8.497zm-5.049 8.886 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                  <div class="price__desc-desc">
+                    Пн - пт: 7:00 - 23:00(Последний заход в 21:30)
+                  </div>
+                </div>
+                <div class="price__desc">
+                  <div class="price__desc-icon">
+                    <svg
+                      clip-rule="evenodd"
+                      fill-rule="evenodd"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m11.998 2.005c5.517 0 9.997 4.48 9.997 9.997 0 5.518-4.48 9.998-9.997 9.998-5.518 0-9.998-4.48-9.998-9.998 0-5.517 4.48-9.997 9.998-9.997zm0 1.5c-4.69 0-8.498 3.807-8.498 8.497s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.497-8.497-8.497zm-5.049 8.886 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                  <div class="price__desc-desc">
+                    Пн - пт: 7:00 - 23:00(Последний заход в 21:30)
+                  </div>
+                </div>
+                <div class="price__desc">
+                  <div class="price__desc-icon">
+                    <svg
+                      clip-rule="evenodd"
+                      fill-rule="evenodd"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="2"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m11.998 2.005c5.517 0 9.997 4.48 9.997 9.997 0 5.518-4.48 9.998-9.997 9.998-5.518 0-9.998-4.48-9.998-9.998 0-5.517 4.48-9.997 9.998-9.997zm0 1.5c-4.69 0-8.498 3.807-8.498 8.497s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.497-8.497-8.497zm-5.049 8.886 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z"
+                        fill-rule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                  <div class="price__desc-desc">
+                    Пн - пт: 7:00 - 23:00(Последний заход в 21:30)
+                  </div>
+                </div>
+                <button class="btn btn--price" type="button">
+                  Приобрести →
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Add Navigation -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section coaches" id="coaches">
+      <div class="container">
+        <div class="section__title">Тренеры</div>
+        <div class="section__subtitle">
+          <div class="subtitle-fp">Команда</div>
+          <div class="subtitle-sp">Профессионалов</div>
+        </div>
+        <div class="coaches__list">
+          <div class="card__item">
+            <div class="card__inner">
+              <div class="card__img">
+                <img
+                  src="assets/img/coaches/1.webp"
+                  alt="Валерия Константинеску"
+                />
+              </div>
+              <div class="card__text">
+                <div class="card__text-name">Валерия Константинеску</div>
+                <div class="card__text-about">Мастер по массажу</div>
+                <div class="card__text-about">
+                  Валерия мастер своего дела, обладающая большщим опытом и
+                  знаниями в области классического массажа, обертывания,
+                  спортивного, лимфодренажного, антицеллюлитного, массажа лица и
+                  других видов массажа.
+                </div>
+                <div class="card__text-social">
+                  <a href="#">
+                    <img src="assets/images/coaches/instagram.png" alt="" />
+                  </a>
+                  <a href="#">
+                    <img src="assets/images/coaches/instagram.png" alt="" />
+                  </a>
+                </div>
+                <button class="btn btn--coaches">Записаться →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__inner">
+              <div class="card__img">
+                <img src="assets/img/coaches/2.webp" alt="Авдеев Александр" />
+              </div>
+              <div class="card__text">
+                <div class="card__text-name">Авдеев Александр</div>
+                <div class="card__text-about">Инструктор тренажерного зала</div>
+                <div class="card__text-about">Персональный тренер</div>
+                <div class="card__text-about">
+                  Диплом о профессиональной переподготовке по программе
+                  «Персональный тренер. Категория : эксперт »
+                </div>
+                <div class="card__text-about">
+                  Серебрняный призёр кеубка Смоленской области 2019 года в
+                  номинации : «пляжный бодибилдинг»
+                </div>
+                <div class="card__text-about">
+                  Специализация: <br />
+                  - снижение веса <br />
+                  - коррекция фигуры <br />
+                  - набор мышечной массы
+                </div>
+
+                <div class="card__text-social">
+                  <a href="#">
+                    <img src="assets/img/coaches/instagram.png" alt="" />
+                  </a>
+                  <a href="#">
+                    <img src="assets/img/coaches/instagram.png" alt="" />
+                  </a>
+                </div>
+                <button class="btn btn--coaches">Записаться →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__inner">
+              <div class="card__img">
+                <img src="assets/img/coaches/3.webp" alt="Камкина Олеся" />
+              </div>
+              <div class="card__text">
+                <div class="card__text-name">Камкина Олеся</div>
+                <div class="card__text-about">Персональный тренер</div>
+                <div class="card__text-about">
+                  Вывступающий спортсмен и дипломированный специалист в одном
+                  лице. В спорте с 13 лет. Успешно выступает в соревнованиях с
+                  2019 года в категории фитнес-бикини
+                </div>
+                <div class="card__text-about">
+                  Олеся поможет Вам:
+                  <br />
+                  - скорректировать фигуру - снизить жировой компонент - усилить
+                  тело с помощью силовых тренировок, что сделает его здоровым и
+                  одновременно красивым.
+                </div>
+
+                <div class="card__text-social">
+                  <a href="#">
+                    <img src="assets/img/coaches/instagram.png" alt="" />
+                  </a>
+                  <a href="#">
+                    <img src="assets/img/coaches/instagram.png" alt="" />
+                  </a>
+                </div>
+                <button class="btn btn--coaches">Записаться →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__inner">
+              <div class="card__img">
+                <img src="assets/img/coaches/4.webp" alt="Телегина Наталия" />
+              </div>
+              <div class="card__text">
+                <div class="card__text-name">Телегина Наталия</div>
+                <div class="card__text-about">Персональный тренер</div>
+                <div class="card__text-about">
+                  Инструктор групповых программ
+                </div>
+                <div class="card__text-about">
+                  Высшее физкультурное образование СГУС(бывший
+                  СГАФКСТ).Сертифицированный тренер по направлению силовой
+                  тренинг, стретчинг, пилатес, аквааэробика.
+                </div>
+
+                <div class="card__text-social">
+                  <a href="#">
+                    <img src="assets/img/coaches/instagram.png" alt="" />
+                  </a>
+                  <a href="#">
+                    <img src="assets/img/coaches/instagram.png" alt="" />
+                  </a>
+                </div>
+                <button class="btn btn--coaches">Записаться →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section__title">Наши контакты</div>
+        <div class="section__subtitle">
+          <div class="subtitle-fp">Как нас</div>
+          <div class="subtitle-sp">Найти</div>
+        </div>
+        <div class="contact__wrapper">
+          <div class="lpart">
+            <div class="lpart__item-title">Адрес</div>
+            <div class="lpart__item">ул. Черняховского, 29</div>
+            <div class="lpart__item-title">Контактный номер</div>
+            <div class="lpart__item">+7 951 710 8389</div>
+
+            <div class="lpart__item-socials">
+              <div class="lpart__item-title">Мы в соц сетях</div>
+              <a href="href" class="social">
+                <img src="assets/img/insta.png" alt="" />
+              </a>
+              <a href="href" class="social">
+                <img src="assets/img/insta.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="rpart">
+            <div class="lpart__item-title">будни (последний заход в 21:30)</div>
+            <div class="lpart__item">пн - 7:00 - 23:00</div>
+            <div class="lpart__item">вт - 7:00 - 23:00</div>
+            <div class="lpart__item">ср - 7:00 - 23:00</div>
+            <div class="lpart__item">чт - 7:00 - 23:00</div>
+            <div class="lpart__item">пт - 7:00 - 23:00</div>
+            <div class="lpart__item-title">
+              выходные и праздники (последний заход в 20:30)
+            </div>
+            <div class="lpart__item">сб - 9:00 - 22:00</div>
+            <div class="lpart__item">вс - 9:00 - 22:00</div>
+          </div>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad95f91efb465a8deacd9abb2c7c1424e991995e8b4b8ac2590172b557b3fe475&amp;source=constructor"
+            width="939"
+            height="599"
+            frameborder="0"
+            title="Где мы находимся"
+          ></iframe>
+        </div>
+        <div class="people people--contact">
+          <img src="assets/img/wman-contact.webp" alt="" />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="lrow">
+            <a href="#main">
+              <div class="logo">
+                <img src="assets/img/logo.png" alt="Fitgym" />
+                <div class="logo__name">
+                  <div class="name">
+                    <div class="name-fit">Fit</div>
+                    <div class="name-gym">Gym</div>
+                  </div>
+                  <div class="logo__name-unname">Premium</div>
+                </div>
+              </div>
+            </a>
+            <div class="copyright">
+              <a href="https://webdev67.ru/">by webdev67.ru</a>
+              <p>Все права защищены 2022</p>
+            </div>
+          </div>
+          <div class="rrow">
+            <div class="socials">
+              <a href="https://vk.com/fit_gym_fg" target="_blank">
+                <img src="assets/img/vk.png" alt="https://vk.com/fit_gym_fg" />
+              </a>
+              <a href="https://www.instagram.com/fit_gym_fg/" target="_blank">
+                <img
+                  src="assets/img/inst.png"
+                  alt="https://www.instagram.com/fit_gym_fg/"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--modal-->
+
+    <div class="modal" id="contact-modal">
+      <div class="modal__content modal__content--contact">
+        <button class="modal__close" type="button">
+          <img src="assets/img/cancel.svg" alt="Закрыть" />
+        </button>
+        <form action="telegram.php" class="form" method="POST">
+          <div class="form__group form__group--md">
+            <input
+              type="text"
+              class="form__control"
+              placeholder="Ваше имя"
+              name="user_name"
+            />
+            <span class="form__line"></span>
+          </div>
+
+          <div class="form__group form__group--md">
+            <input
+              type="tel"
+              class="form__control tel"
+              placeholder="Ваш телефон"
+              name="user_phone"
+            />
+            <span class="form__line"></span>
+          </div>
+
+          <div class="form__group form__group--md">
+            <textarea
+              class="form__control form__control--textarea"
+              name="user_text"
+              placeholder="Текст сообщения"
+            ></textarea>
+            <span class="form__line"></span>
+          </div>
+
+          <div class="form__footer">
+            <div class="form__group form__group--md">
+              <button class="button" type="submit">Отправить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!--modal-content-->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/fslightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/tel.js"></script>
+    <script src="assets/js/header-fixed.js"></script>
+    <script src="assets/js/menu.js"></script>
+  </body>
+</html>
